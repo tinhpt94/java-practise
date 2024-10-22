@@ -1,15 +1,17 @@
+import java.util.Scanner;
+
 public class EvenAndOdd {
     public static void main(String[] args) {
-
-        int number = 10;
+        Scanner sc = new Scanner(System.in);
+        int number = sc.nextInt();
 
         if (number % 2 == 0) {
 
-            System.out.println(number + " là số chẵn.");
+            System.out.println(number + " is even number.");
 
         } else {
 
-            System.out.println(number + " là số lẻ.");
+            System.out.println(number + " is odd number.");
 
         }
 
