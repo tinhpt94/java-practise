@@ -9,4 +9,5 @@ public class QuotientAndRemainder {
         System.out.println("Remainder when dividing " + dividend + " by " + divisor + " is: " + (dividend%divisor));
 
     }
+
 }
