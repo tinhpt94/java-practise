@@ -21,10 +21,10 @@ public class Circle {
     }
 
     public double getCircumference() {
-        return radius*Math.PI;
+        return  2*radius*Math.PI;
     }
 
     public String toString() {
-        return "Circle[radius = " + radius + ", area = " + radius*radius*Math.PI + ", circumference = " + radius*Math.PI + "]";
+        return "Circle[radius = " + radius + ", area = " + radius*radius*Math.PI + ", circumference = " + 2*radius*Math.PI + "]";
     }
 }
