@@ -44,17 +44,17 @@ public class Account1 {
 
     public Account1 deposit(double amount) {
         this.balance += amount;
-        return Account1.this;
+        return this;
     }
 
     public Account1 withdraw(double amount) {
         if(balance>=amount) {
             this.balance -= amount;
-            return Account1.this;
+            return this;
         }
         else {
             System.out.println("Amount withdrawn exceeds the current balance!");
         }
-        return Account1.this;
+        return this;
     }
 }
