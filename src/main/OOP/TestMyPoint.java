@@ -4,8 +4,8 @@ public class TestMyPoint {
         System.out.println(p1);
         p1.setX(8);
         p1.setY(6);
-        System.out.println("x là: " + p1.getX());
-        System.out.println("y là: " + p1.getY());
+        System.out.println("x is: " + p1.getX());
+        System.out.println("y is: " + p1.getY());
         p1.setXY(3, 0);
         System.out.println(p1.getXY()[0]);
         System.out.println(p1.getXY()[1]);
