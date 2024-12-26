@@ -27,14 +27,13 @@ public class Account1 {
     }
 
     public double getBalance() {
-        balance = Math.ceil(balance*100);
-        balance /= 100;
         return balance;
     }
 
     @Override
     public String toString() {
-        //balance = Math.ceil(balance*100);
+        balance = Math.ceil(balance*100);
+        balance /= 100;
         return customer + " balance=$" + balance;
     }
 
